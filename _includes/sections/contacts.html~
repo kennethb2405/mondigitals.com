@@ -35,8 +35,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- formspre -->
-			<form id="contact-form" class="mt-5" method="POST" action="https://formspree.io/xzbvdwqv" role="form" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+			<form id="contact-form" class="mt-5" method="post" action="https://ivang-design.com/coeus/contact.php" role="form" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
 				<div class="row justify-content-center">
 					<div class="col-md-8">
 						<div class="messages text-center"></div>
@@ -46,13 +45,13 @@
 					<div class="row justify-content-center">
 						<div class="col-md-4">
 							<div class="form-group text-center">
-								<input id="form_name" type="text" name="name" class="form-control text-center" placeholder="Nombre completo *" required="required" data-error="Nombre es requerido.">
+								<input id="form_name" type="text" name="name" class="form-control text-center" placeholder="Enter your first name *" required="required" data-error="First name is required.">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-4 mt-3 mt-md-0">
 							<div class="form-group text-center">
-								<input id="form_email" type="email" name="email" class="form-control text-center" placeholder="Correo electrónico *" required="required" data-error="Correo es requerido.">
+								<input id="form_lastname" type="text" name="surname" class="form-control text-center" placeholder="Enter your last name *" required="required" data-error="Last name is required.">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -60,19 +59,13 @@
 					<div class="row justify-content-center">
 						<div class="col-md-4 mt-3">
 							<div class="form-group text-center">
-								<input id="form_phone" type="tel" name="phone" class="form-control text-center" placeholder="númereo de teléfono *" required="required" data-error="Teléfono es requerido.">
+								<input id="form_email" type="email" name="email" class="form-control text-center" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-4 mt-3">
 							<div class="form-group text-center">
-								<select id="form_subject" name="_subject" class="form-control text-center" required="required" data-error="¿Qué quieres que hagamos?" style="height: 100%; color: #fff !important;">
-									<option value=""></option>
-									<option value="Redes sociales">Redes sociales</option>
-									<option value="Página web">Página web</option>
-									<option value="Diseño publicitario">Diseño publicitario</option>
-									<option value="Otros">Otros</option>
-								</select>
+								<input id="form_phone" type="tel" name="phone" class="form-control text-center" placeholder="Enter your phone">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -80,17 +73,16 @@
 					<div class="row justify-content-center">
 						<div class="col-md-8 mt-3">
 							<div class="form-group text-center">
-								<textarea id="form_message" name="message" class="form-control text-center" placeholder="Cuéntanos un poco de tu idea *" rows="4" required="required" data-error="Por favor, déjanos un mensaje."></textarea>
+								<textarea id="form_message" name="message" class="form-control text-center" placeholder="Your message *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
 								<div class="help-block with-errors textarea-error"></div>
 							</div>
 						</div>
 						<div class="col-md-8 mt-3 text-center">
-							<input type="submit" class="btn btn-primary btn-send text-center" value="Enviar">
+							<input type="submit" class="btn btn-primary btn-send text-center" value="Send message">
 						</div>
 					</div>
 				</div>
 			</form>
-			<!-- /formspre -->
 		</div>
 	</div>
 </div>
