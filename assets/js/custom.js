@@ -142,7 +142,11 @@
 				$.ajax({
 					type: "POST",
 					beforeSend: function(request) {
-						request.setRequestHeader("Access-Control-Allow-Origin", "*");
+						request.setRequestHeader("Access-Control-Allow-Origin", request.getHeader("Origin"));
+        		request.setRequestHeader("Access-Control-Allow-Credentials", "true");
+        		request.setRequestHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE");
+        		request.setRequestHeader("Access-Control-Max-Age", "3600");
+        		request.setRequestHeader("Access-Control-Allow-Headers", "Content-Type, Accept, X-Requested-With, remember-me");
 					},
 					url: newUrl,
 					data: $(this).serialize(),
