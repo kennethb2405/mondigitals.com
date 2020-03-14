@@ -143,6 +143,9 @@
 				// POST values in the background the the script URL
 				$.ajax({
 					type: "POST",
+					beforeSend: function(request) {
+						request.setRequestHeader("Access-Control-Allow-Origin", "*");
+					},
 					url: url,
 					data: $(this).serialize(),
 					success: function (data)
