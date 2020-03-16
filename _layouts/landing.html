@@ -48,19 +48,8 @@
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body>
 	{% include loader.html %}
-  {% include navigation.html %}
 
-	<!-- Primary Page Layout
-	================================================== -->
-	{% include sections/main_banner.html %}
-
-	{% include sections/what_we_do.html %}
-
-	{% include sections/contacts.html %}
-
-	{% include sections/pricing.html %}
-
-	{% include sections/faqs.html %}
+	{{ content }}
 
 	<!-- footer -->
 	{% include footer.html %}
