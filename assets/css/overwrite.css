@@ -1,0 +1,11 @@
+.form-subject-selector {
+	-webkit-appearance: none;
+	color: #fff !important;
+	height: 45px !important;
+}
+
+/*
+.form-subject-selector:focus {
+	background-color: rgba(127, 222, 229, 0.6);
+}
+*/
