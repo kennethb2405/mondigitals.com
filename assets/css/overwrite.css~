@@ -2,7 +2,7 @@
 	-webkit-appearance: none;
 	color: #fff !important;
 	height: 45px !important;
-	font-size: 0.95em !important;
+	font-size: 1em !important;
 	font-family: Work Sans;
 }
 
@@ -24,7 +24,3 @@ input::-moz-placeholder {text-transform: none !important; font-size: 1em !import
 
 textarea::-webkit-input-placeholder {text-transform: none !important; font-size: 1em !important;}
 textarea::-moz-placeholder {text-transform: none !important; font-size: 1em !important;}
-
-.purple {
-	background-color: #00005D !important;
-}
