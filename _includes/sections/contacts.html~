@@ -1,0 +1,96 @@
+<div class="section background-gradient-light" id="idea">
+	<div class="section padding-top-bottom-big background-image-cover" style="background-image: url('img/background-3.png');">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-wrap text-center">
+						<div class="back-title strong">Escribinos</div>
+						<h3 class="text-white">Estamos listos para despegar</h3>
+						<p class="color-pr"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-3" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+					<div class="contact-det text-center">
+						<img src="assets/img/contact-1.svg" alt="">
+						<h6 class="text-white">Teléfonos</h6>
+						<p class="text-grey">+505 7616-6305 | +505 8240-4559</p>
+					</div>
+				</div>
+				<div class="col-md-3 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
+					<div class="contact-det text-center">
+						<img src="assets/img/contact-4.svg" alt="">
+						<h6 class="text-white">Correo</h6>
+						<p class="text-grey">proyectos@mondigitals.com</p>
+					</div>
+				</div>
+				<div class="col-md-3 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
+					<div class="contact-det text-center">
+						<img src="assets/img/contact-3.svg" alt="">
+						<h6 class="text-white">Dirección</h6>
+						<p class="text-grey">Managua, Nicaragua</p>
+					</div>
+				</div>
+			</div>
+			<!-- formspre -->
+			<form id="contact-form" class="mt-5" method="POST" action="https://formspree.io/xzbvdwqv" role="form" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<div class="messages text-center"></div>
+					</div>
+				</div>
+				<div class="controls form-on-blue">
+					<div class="row justify-content-center">
+						<div class="col-md-4">
+							<div class="form-group text-center">
+								<input id="form_name" type="text" name="name" class="form-control text-center" placeholder="Nombre completo *" required="required" data-error="Nombre es requerido.">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-3 mt-md-0">
+							<div class="form-group text-center">
+								<input id="form_email" type="email" name="email" class="form-control text-center" placeholder="Correo electrónico *" required="required" data-error="Correo es requerido.">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-md-4 mt-3">
+							<div class="form-group text-center">
+								<input id="form_phone" type="tel" name="phone" class="form-control text-center" placeholder="númereo de teléfono *" required="required" data-error="Teléfono es requerido.">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-3">
+							<div class="form-group text-center">
+								<select id="form_subject" name="_subject" class="form-control text-center form-subject-selector" required="required" data-error="¿Qué quieres que hagamos?">
+									<option value="">Servicios</option>
+									<option value="Redes sociales">Redes sociales</option>
+									<option value="Página web">Página web</option>
+									<option value="Diseño publicitario">Diseño publicitario</option>
+									<option value="Otros">Otros</option>
+								</select>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-md-8 mt-3">
+							<div class="form-group text-center">
+								<textarea id="form_message" name="message" class="form-control text-center" placeholder="Contanos un poco de tu idea, negocio o emprendimiento *" rows="4" required="required" data-error="Por favor, déjanos un mensaje."></textarea>
+								<div class="help-block with-errors textarea-error"></div>
+							</div>
+						</div>
+						<div class="col-md-8 mt-3 text-center">
+							<input type="submit" class="btn btn-primary btn-send text-center" value="Despegar">
+						</div>
+					</div>
+				</div>
+			</form>
+			<!-- /formspre -->
+		</div>
+	</div>
+</div>

@@ -1,0 +1,21 @@
+.form-subject-selector {
+	-webkit-appearance: none;
+	color: #fff !important;
+	height: 45px !important;
+}
+
+/*
+.form-subject-selector:focus {
+	background-color: rgba(127, 222, 229, 0.6);
+}
+*/
+
+.errors-align {
+	padding-left: 5px;
+}
+
+input::-webkit-input-placeholder {text-transform: none !important; font-size: 1.2em !important;}
+input::-moz-placeholder {text-transform: none !important; font-size: 1.2em !important;}
+
+textarea::-webkit-input-placeholder {text-transform: none !important;}
+textarea::-moz-placeholder {text-transform: none !important;}
