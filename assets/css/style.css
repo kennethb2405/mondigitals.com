@@ -2045,8 +2045,8 @@ input.btn.btn-primary{
 	}
 
 	.shapecircle1 {
-		width: 150px;
-		bottom: -50px;
+		width: 150px !important;
+		bottom: -50px !important;
 	}
 
 
