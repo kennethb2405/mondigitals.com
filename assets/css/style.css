@@ -2039,9 +2039,17 @@ input.btn.btn-primary{
 
 @media (max-width: 767px) {
 
-	.shapecircle {
-		display: none;
+	.shapecircle2 {
+		width: 120px !important;
+		right: 10px !important;
 	}
+
+	.shapecircle1 {
+		width: 150px;
+		bottom: -50px;
+	}
+
+
 
 	.hero-center-wrap h1{
 		font-size: 30px;
