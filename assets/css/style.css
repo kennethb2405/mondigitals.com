@@ -2038,6 +2038,11 @@ input.btn.btn-primary{
 }
 
 @media (max-width: 767px) {
+
+	.shapecircle {
+		display: none;
+	}
+
 	.hero-center-wrap h1{
 		font-size: 30px;
 	}
