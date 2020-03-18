@@ -9,8 +9,10 @@ title: Mond | Hacemos despegar tu marca
 ================================================== -->
 {% include sections/main_banner.html %}
 
-{% include sections/who_we_are.html %}
-
 {% include sections/what_we_do.html %}
 
 {% include sections/contacts.html %}
+
+{% include sections/pricing.html %}
+
+{% include sections/faqs.html %}
