@@ -25,7 +25,7 @@ input::-moz-placeholder {text-transform: none !important; font-size: 1em !import
 textarea::-webkit-input-placeholder {text-transform: none !important; font-size: 1em !important;}
 textarea::-moz-placeholder {text-transform: none !important; font-size: 1em !important;}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
 	.purple {
 		background-color: #00005D !important;
 	}
