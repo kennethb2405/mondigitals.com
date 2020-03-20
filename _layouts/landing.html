@@ -48,6 +48,8 @@
 
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body>
+	<div class="fb-customerchat" page_id="112618167034761"></div>
+	
 	{% include loader.html %}
 	
 	{{ content }}
@@ -57,6 +59,7 @@
 
 	<!-- JAVASCRIPT
     ================================================== -->
+  {% include facebook_sdk_script.html %}
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
